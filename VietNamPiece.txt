@@ -1,0 +1,24 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "VNP×Gay", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+OrionLib:MakeNotification({
+	Name = "HackByYourMom",
+	Content = "VNP Hack",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+local Tab1 = Window:MakeTab({
+	Name = "Kill Aura",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab1:AddSection({
+	Name = "Kill Aura"
+})
+
+Tab1:AddButton({
+	Name = "Kill Aura",
+	Callback = function(z)
+      		game.Players.LocalPlayer:Kick(“mày gay🏳️‍🌈🤣🤣🤣")
